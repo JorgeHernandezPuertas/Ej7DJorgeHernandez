@@ -1,0 +1,10 @@
+2 - 21:Seat:Panda:Rojo
+2 - 22:Ford:5g:Blanco
+2 - 23:Otra:x3:Amarillo
+2 - 24:Seat:alguna:Azul
+2 - 25:Hyundai:nosemarcas:Rojo
+2 - 26:Toyota:prueba:Negro
+2 - 27:Otra2:Panda:Gris
+2 - 28:Volkswagen:qkc:Marron
+2 - 29:Volvo:kl6:Celeste
+2 - 30:Smart:2000x:Cyan
