@@ -18,17 +18,19 @@ public class Vehiculo {
     private String modelo;
     private String color;
     private double tarifa;
+    private boolean disponible;
 
     // constructores
     public Vehiculo() {
     }
 
-    public Vehiculo(String bastidor, String marca, String modelo, String color, double tarifa) {
+    public Vehiculo(String bastidor, String marca, String modelo, String color, double tarifa, boolean disponible) {
         this.bastidor = bastidor;
         this.marca = marca;
         this.modelo = modelo;
         this.color = color;
         this.tarifa = tarifa;
+        this.disponible = disponible;
     }
 
     // getters y setters
@@ -71,6 +73,14 @@ public class Vehiculo {
     public void setTarifa(double tarifa) {
         this.tarifa = tarifa;
     }
+    
+    public boolean isDisponible() {
+        return disponible;
+    }
+
+    public void setDisponible(boolean disponible) {
+        this.disponible = disponible;
+    }
 
     // toString
     @Override
@@ -105,5 +115,5 @@ public class Vehiculo {
         final Vehiculo other = (Vehiculo) obj;
         return Objects.equals(this.bastidor, other.bastidor);
     }
-    
+
 }
