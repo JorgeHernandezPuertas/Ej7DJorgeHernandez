@@ -89,7 +89,9 @@ public class Vehiculo {
         sb.append(bastidor).append(":");
         sb.append(marca).append(":");
         sb.append(modelo).append(":");
-        sb.append(color);
+        sb.append(color).append(":");
+        sb.append(tarifa).append(":");
+        sb.append(disponible);
         return sb.toString();
     }
 
