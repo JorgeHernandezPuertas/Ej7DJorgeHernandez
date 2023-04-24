@@ -14,7 +14,7 @@ public class Deportivo extends Vehiculo {
     public Deportivo() {
     }
 
-    public Deportivo(String bastidor, String marca, String modelo, String color, int tarifa, boolean disponible) {
+    public Deportivo(String bastidor, String marca, String modelo, String color, double tarifa, boolean disponible) {
         super(bastidor, marca, modelo, color, tarifa, disponible);
     }
 
